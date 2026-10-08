@@ -1,0 +1,32 @@
+.custom-marker-icon {
+  background: transparent;
+  border: none;
+}
+
+.custom-marker-icon__cross {
+  position: relative;
+  display: block;
+  width: 42px;
+  height: 42px;
+}
+
+.custom-marker-icon__cross::before,
+.custom-marker-icon__cross::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 7px;
+  border-radius: 999px;
+  background: black;
+  transform: translate(-50%, -50%);
+}
+
+.custom-marker-icon__cross::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.custom-marker-icon__cross::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
