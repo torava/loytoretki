@@ -30,3 +30,7 @@
 .custom-marker-icon__cross::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+.leaflet-popup {
+  margin-left: 10px;
+}
