@@ -8,3 +8,7 @@ An [OpenStreetMap](https://www.openstreetmap.org/) application developed for [So
 npm i
 npm run dev
 ```
+
+## Try out
+
+[https://torava.github.io/loytoretki/](https://torava.github.io/loytoretki/)
